@@ -17,6 +17,7 @@
 
 .article_alumnas{
     display:flex;
+    display: wrap;
     flex-direction: column;
     align-items: center;
 }
@@ -80,4 +81,49 @@
 
 .redes {
     margin: 15px auto 45px auto;
+}
+
+
+@media (min-width: 768px) {
+
+.article_alumnas {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pic_container {
+    width: 205px;
+    height: 205px;
+}
+
+.article_alumnas p {
+    max-width: 440px;
+    text-align: inherit;
+    margin-left: 0;
+}
+.descripcion_alumnas {
+    height: 205 px;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+.redes {
+    margin: 15px 0 45px 0;
+}
+}
+
+
+@media (min-width: 1200px) {
+
+.pic_container {
+    width: 278px;
+    height: 278px;
+}    
+.article_alumnas p {
+    max-width: 440px;
+    text-align: inherit;
+    margin-left: 0;
+    
+    
+}
 }
