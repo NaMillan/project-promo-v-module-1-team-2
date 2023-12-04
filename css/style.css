@@ -83,6 +83,7 @@
     margin: 15px auto 45px auto;
 }
 
+
 @media (min-width: 768px) {
 
 .article_alumnas {
@@ -101,7 +102,7 @@
     margin-left: 0;
 }
 .descripcion_alumnas {
-    max-height: 205 px;
+    height: 205 px;
     align-items: flex-start;
     padding-left: 30px;
 }
@@ -120,6 +121,8 @@
 }    
 .article_alumnas p {
     max-width: 440px;
+    text-align: inherit;
+    margin-left: 0;
     
     
 }
