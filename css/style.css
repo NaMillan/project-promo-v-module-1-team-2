@@ -86,3 +86,83 @@ a {
      
  
 } */
+    /* --titles-font: 'Rubik', sans-serif;
+} */
+
+.descripcion_alumnas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alumnas {
+    display: flex;
+    flex-direction: column;
+    font-family: sans;
+}
+
+.article_alumnas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article_alumnas p {
+    font-family: var(--p-font);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--p-color);
+    text-align: center;
+    margin: 15px;
+}
+
+.article_alumnas h4{
+    font-family: var(--p-font);
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.pic_container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 5px antiquewhite solid;
+    border-radius: 5px;
+    width: 180px;
+    height: 180px;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-family: var(--titles-font);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #099D8D;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.icon {
+    color: #099D8D;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.twitter::after {
+    content:" · ";
+}
+
+.linkedin::after {
+    content: " · ";
+}
+
+.github::after {
+    content: " · ";
+}
+
+.redes {
+    margin: 15px auto 45px auto;
+}
