@@ -91,6 +91,14 @@
     flex-wrap: wrap;
 }
 
+.reverse_image {
+    flex-direction: row-reverse;
+}
+
+.reverse_text {
+    
+}
+
 .pic_container {
     width: 205px;
     height: 205px;
