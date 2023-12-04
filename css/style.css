@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> equipos
 :root{
     --p-color: #54585A;
     --p-font: 'Open Sans', sans-serif;
@@ -32,6 +35,7 @@
 }
 .boxfortalezas{
     background-color:#b8b8b9;
+<<<<<<< HEAD
      
    
 }
@@ -85,3 +89,9 @@ a {
     margin: 30px 28px 0;
 }
 >>>>>>> 5b2ca5aae349d5f22891bdb314bf032c691c21e2
+=======
+    padding: 15px;
+     
+   
+}
+>>>>>>> equipos
