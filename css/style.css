@@ -2,31 +2,18 @@
     --p-color: #54585A;
     --p-font: 'Open Sans', sans-serif;
     --titles-font: 'Rubik', sans-serif;
-   
 }
-/* .container{
-    margin: 0 15 px;
-    background-color: pink; */
-h4 {
-    font-family: var(--p-font);
-    font-size: 1.2rem;
+
+.descripcion_alumnas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-    
 .alumnas {
     display: flex;
     flex-direction: column;
     font-family: sans;
-
 }
-/* 
-
-.foto {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    
-
-} */
 
 .article_alumnas{
     display:flex;
@@ -37,8 +24,16 @@ h4 {
 .article_alumnas p {
     font-family: var(--p-font);
     font-size: 1rem;
+    line-height: 1.5;
     color: var(--p-color);
     text-align: center;
+    margin: 15px;
+}
+
+.article_alumnas h4{
+    font-family: var(--p-font);
+    font-size: 1.2rem;
+    margin-bottom: 0;
 }
 
 .pic_container {
@@ -47,26 +42,14 @@ h4 {
     text-align: center;
     border: 5px antiquewhite solid;
     border-radius: 5px;
-    width: 15%;
-    height: 15%;
+    width: 180px;
+    height: 180px;
 }
 
 .pic {
     width: 100%;
     height: 100%;
-
 }
-
-/*.marco_fotos{
-    background-image: url(../images/NataliaLopez.jpg);
-    width: 180px;
-    height: 180px;
-    background-size: cover;
-    border-radius: 4px;
-    border: solid var(--p-color);
-    
-}*/
-
 
 .title {
     font-family: var(--titles-font);
@@ -82,16 +65,19 @@ h4 {
     font-size: 1rem;
     text-decoration: none;
 }
+
 .twitter::after {
     content:" · ";
 }
+
 .linkedin::after {
     content: " · ";
 }
+
 .github::after {
     content: " · ";
 }
 
 .redes {
-    margin: 0 auto;
+    margin: 15px auto 45px auto;
 }
