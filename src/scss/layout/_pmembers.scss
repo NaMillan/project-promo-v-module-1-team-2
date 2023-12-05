@@ -70,6 +70,12 @@
         flex-wrap: wrap;
     }
     
+    article.description:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+
+    
     // .reverse {
     //     flex-direction: row-reverse;
     //  }
