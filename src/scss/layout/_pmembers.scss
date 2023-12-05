@@ -22,7 +22,7 @@
 
 .description__text p {
     font-family: $font-text;
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 1.5;
     color: $color-text;
     text-align: center;
@@ -31,7 +31,7 @@
 
 .description__text h4{
     font-family: $font-text;
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 0;
 }
 
@@ -45,7 +45,7 @@
 }
 .social__icon {
     color: $color-title;
-    font-size: 1rem;
+    font-size: 1.6rem;
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@
     
     .reverse {
         flex-direction: row-reverse;
-    }
+     }
     
     /*.reverse_text {
     
