@@ -1,5 +1,15 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+    background-color: rgba(9, 157, 141, 0.8);
+    color: $color-white;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+.header h1 {
+    margin:0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
 }

@@ -11,21 +11,21 @@
    
 }
 .boxequipo p{
-    color: var(--p-color);
-    font-family: var(--p-font);
+    color: $color-text;
+    font-family: $color-title;
     padding: 15px;
     text-align: center;
 
 }
 
 .boxequipo h2{
-    font-family: var(--titles-font);
-    color: var(--titles-color);
+    font-family: $font-title;
+    color: $color-title;
     text-align: center;
 }
 .boxequipo h4{
-    font-family: var(--titles-font);
-    color: var(--titles-color);
+    font-family: $font-title;
+    color: $color-title;
     text-align: center;
     margin-top: 30px;
 }
@@ -51,7 +51,7 @@
     /* margin: 30px 74px 200px; */
     text-align: center;
     font-size: 14 px;
-    font-family: var(--p-font);
+    font-family: $color-title;
     color: #b8b8b9;
 }
 
@@ -67,10 +67,10 @@
 }
 a {
     font-size: 14 px;
-    font-family: var(--p-font);
+    font-family: $color-title;
     opacity: 0.75;
     text-decoration: none;
-    color: var(--p-color);
+    color: $color-text;
     text-transform: uppercase;
     line-height: 1.4;
     font-weight: 600;
@@ -86,7 +86,7 @@ a {
      
  
 } */
-    /* --titles-font: 'Rubik', sans-serif;
+    /* $font-title: 'Rubik', sans-serif;
 } */
 
 .descripcion_alumnas{
@@ -107,16 +107,16 @@ a {
 }
 
 .article_alumnas p {
-    font-family: var(--p-font);
+    font-family: $color-title;
     font-size: 1rem;
     line-height: 1.5;
-    color: var(--p-color);
+    color: $color-text;
     text-align: center;
     margin: 15px;
 }
 
 .article_alumnas h4{
-    font-family: var(--p-font);
+    font-family: $color-title;
     font-size: 1.2rem;
     margin-bottom: 0;
 }
@@ -125,7 +125,7 @@ a {
     margin: 0;
     padding: 0;
     text-align: center;
-    border: 5px antiquewhite solid;
+    border: 5px $color-sw;
     border-radius: 5px;
     width: 180px;
     height: 180px;
@@ -137,7 +137,7 @@ a {
 }
 
 .title {
-    font-family: var(--titles-font);
+    font-family: $font-title;
     font-size: 1.5rem;
     text-transform: uppercase;
     color: #099D8D;
@@ -146,7 +146,7 @@ a {
 }
 
 .icon {
-    color: #099D8D;
+    color: $color-title;
     font-size: 1rem;
     text-decoration: none;
 }
