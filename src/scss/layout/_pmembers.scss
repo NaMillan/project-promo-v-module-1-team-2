@@ -1,17 +1,27 @@
-.descripcion_alumnas{
+.description{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.description__text{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.article_alumnas{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.description__img {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 5px $color-sw solid;
+    border-radius: 5px;
+    width: 190px;
+    height: 190px;
 }
 
-.article_alumnas p {
-    font-family: $color-title;
+.description__text p {
+    font-family: $font-text;
     font-size: 1rem;
     line-height: 1.5;
     color: $color-text;
@@ -19,45 +29,35 @@
     margin: 15px;
 }
 
-.article_alumnas h4{
-    font-family: $color-title;
+.description__text h4{
+    font-family: $font-text;
     font-size: 1.2rem;
     margin-bottom: 0;
 }
 
-.pic_container {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    border: 5px $color-sw;
-    border-radius: 5px;
-    width: 180px;
-    height: 180px;
-}
-
-.pic {
+.description__img--img {
     width: 100%;
     height: 100%;
 }
 
-.icon {
+.social {
+    margin: 15px auto 45px auto;
+}
+.social__icon {
     color: $color-title;
     font-size: 1rem;
     text-decoration: none;
 }
 
-.twitter::after {
+.social__twitter::after {
     content:" · ";
 }
 
-.linkedin::after {
+.social__linkedin::after {
     content: " · ";
 }
 
-.github::after {
+.social__github::after {
     content: " · ";
 }
 
-.redes {
-    margin: 15px auto 45px auto;
-}

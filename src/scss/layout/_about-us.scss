@@ -1,16 +1,14 @@
-
-
-.alumnas {
+.us {
     display: flex;
     flex-direction: column;
     font-family: sans;
 }
 
-.title {
+.us__title {
     font-family: $font-title;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #099D8D;
+    color: $color-title;
     margin: 0 auto;
     padding: 2rem;
 }
