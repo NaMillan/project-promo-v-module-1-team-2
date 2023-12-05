@@ -68,40 +68,38 @@
     .description {
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
     
     article.description:nth-child(odd) {
         flex-direction: row-reverse;
     }
 
-
-    
-    // .reverse {
-    //     flex-direction: row-reverse;
-    //  }
-    
-    /*.reverse_text {
-    
-    }*/
-    
     .description__img {
         width: 205px;
         height: 205px;
+       
     }
     
     .description__text {
-        height: 205 px;
+        height: 170 px;
         align-items: flex-start;
         padding-left: 30px;
+        position: relative;
+        top: 15px;
+
     }
     .description__text p {
         max-width: 440px;
+        max-height: 200px;
         text-align: inherit;
         margin-left: 0;
+        margin-top: 10px;
     }
     
     .social {
-        margin: 15px 0 45px 0;
+        margin: 0 0 45px 0;
     }
 }
     
