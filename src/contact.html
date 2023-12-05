@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="contact.scss"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <load src="./partials/header.html"/>pero es con otra foto de HERO -->
+    <main class="container">
+        <h1>Contacto</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corporis nesciunt eaque! Praesentium facere
+            numquam quidem molestiae et ullam laborum? Modi iure ea harum earum iusto adipisci perspiciatis excepturi
+            omnis!</p>
+        <p>Todos los campos marcados con * son obligatorios</p>
+        <div>
+            <form action="........." method="post" class="form">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name" placeholder="Nombre..." required>
+
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" placeholder="nombre.apellido@mail.com" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ej:123456789">
+
+                <label for="mensaje">Mensaje*</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué necesitas?" required></textarea>
+
+                <button type="submit">Enviar</button>
+        </div>
+    </main>
+    <load src="./partials/footer.html"/>
+</body>
+
+</html>

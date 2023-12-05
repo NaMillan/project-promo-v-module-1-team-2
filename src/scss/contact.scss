@@ -1,0 +1,32 @@
+
+.container {
+    width: 320px;
+    height: 810px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+h1{
+    width: 127px;
+    height: 45px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: var();
+}
+
+// h1, p {
+//     text-align: center;
+// }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+    flex-wrap: wrap;
+}
