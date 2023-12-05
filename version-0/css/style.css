@@ -1,10 +1,12 @@
-:root{
+/*:root{
     --p-color: #54585A;
     --p-font: 'Open Sans', sans-serif;
     --titles-font:'Rubik', sans-serif;
     --titles-color:#099D8D;
 }
 
+
+/* GABI
 .boxequipo{
     margin: 30px;
     font-size: 1.2rem;
@@ -37,7 +39,7 @@
     width: 320px;
     height: 250px;
     /* margin: ;
-    padding: ; */
+    padding: ; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,10 +47,12 @@
     gap: 20px;
 }
 
+*/
+/*IVANA
 .footer-copy {
     width: 172px;
     height: 20px;
-    /* margin: 30px 74px 200px; */
+    /* margin: 30px 74px 200px; 
     text-align: center;
     font-size: 14 px;
     font-family: $color-title;
@@ -82,13 +86,15 @@ a {
     margin: 30px 28px 0;
 }
 
-    /* padding: 15px;
+     padding: 15px;
      
  
-} */
-    /* $font-title: 'Rubik', sans-serif;
+} 
+    $font-title: 'Rubik', sans-serif;
 } */
 
+
+/*NATALIA Y YO
 .descripcion_alumnas{
     display: flex;
     flex-direction: column;
