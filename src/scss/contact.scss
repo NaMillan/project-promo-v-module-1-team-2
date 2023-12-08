@@ -1,5 +1,5 @@
 
-.container {
+.contact {
     width: 320px;
     height: 810px;
     display: flex;
@@ -10,7 +10,7 @@
     
 }
 
-h1{
+.contact__title{
     width: 127px;
     height: 45px;
     text-transform: uppercase;
@@ -29,4 +29,8 @@ h1{
     align-items: center;
     gap: 39px;
     flex-wrap: wrap;
+}
+
+.button {
+    display: ;
 }
