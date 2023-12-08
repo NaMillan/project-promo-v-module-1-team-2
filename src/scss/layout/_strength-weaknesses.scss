@@ -1,3 +1,44 @@
-.boxequipo__fortalezas{
-    background-color:#b8b8b9;
+.boxfortalezas { 
+    // background-color: rgb(184, 184, 185, 10%);
+    text-align: center;
+    background-color: $color-background;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+    position: relative;
+    
+}
+
+ .boxfortalezas__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & h3{
+    font-family: $font-title;
+    color: $color-title;
+    font-size: 2.2rem;  
+    margin-top: 30px; 
+    text-align: center;
+    }
+
+    & p{
+    font-size: 1.6rem;  
+    line-height: 1.5;  
+    color: $color-text;
+    font-family: $font-text;
+    padding: 10px 30px;
+    }
+}
+
+.square {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%,-50%) rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: 50%;
 }

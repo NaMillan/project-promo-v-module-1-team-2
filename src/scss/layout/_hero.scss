@@ -1,0 +1,30 @@
+.hero {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url('/images/backgroundcontact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &__slogan {
+        font-size: 1.8rem;
+        font-family: $font-text;
+        background-color: $color-white;
+        transform: translateY(50%);
+        height: 80px;
+        width: 290px;
+        text-align: left;
+        color: $color-black;
+        font-weight: 600;
+        line-height: 1.4;
+        padding: 15px;
+    @media (min-width: 768px) {
+        background-color: rgb(255, 255, 255, 0.4);
+        transform: none;
+        transform: translateX(-30%);
+    //   CAMBIAR TAMAÑOS A 440*80 Y EN DESKTOP A 90*574
+    }
+    
+    }
+}
