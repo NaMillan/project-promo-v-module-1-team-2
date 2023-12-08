@@ -13,21 +13,35 @@
             flex-direction: row-reverse;
             text-align: right;
             align-items: right;
-}
-}    
-}
-.description__text{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin: 15px;
-    @media (min-width: 768px) {
-        height: 200 px;
+        }
+    }
+   &__text{
         display: flex;
-        position: relative;
-        top: 40px;
-}
-}
+        flex-direction: column;
+        align-items: left;
+        margin: 15px;
+        @media (min-width: 768px) {
+            height: 200 px;
+            display: flex;
+            position: relative;
+            top: 10px;       
+            }
+    }
+}    
+
+// .description__text{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: left;
+//     margin: 15px;
+//     @media (min-width: 768px) {
+//         height: 200 px;
+//         display: flex;
+//         position: relative;
+//         top: 40px;
+        
+// }
+// }
 .description__img {
     margin: 15px;
     padding: 0;
@@ -52,13 +66,13 @@
     line-height: 1.5;
     color: $color-text;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 0 15px 10px;
     @media (min-width: 768px) {
         max-width: 440px;
         max-height: 200px;
         text-align: inherit;
-        margin-left: 0;
-        margin-top: 10px;
+        margin: 10px 0px;
+        padding: 0;
         @media (min-width: 1200px) {
             
 }
@@ -89,10 +103,12 @@
     margin: 15px auto 45px auto;
     @media (min-width: 768px) {
         margin: 0 0 45px 0;
-    
+        @media (min-width: 1200px) {
+            margin-top: 15px;
+        }
+    }
 }
 
-}
 .social__icon {
     color: $color-title;
     font-size: 1.6rem;
@@ -112,13 +128,13 @@
 }
 
 
-    @media (min-width: 1200px) {
+    // @media (min-width: 1200px) {
     
 
-    .description__text--title{
-        // max-width: 440px;
-        // text-align: inherit;
-        // margin-left: 0;
-    }
+    // .description__text--title{
+    //     // max-width: 440px;
+    //     // text-align: inherit;
+    //     // margin-left: 0;
+    // }
 
-    }
+    // }
