@@ -8,6 +8,9 @@
     align-items: center;
     padding-bottom: 45px;
     position: relative;
+      @media (min-width: 768px) {
+        flex-direction: row;
+    }
     
 }
 
