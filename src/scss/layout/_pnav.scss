@@ -1,4 +1,4 @@
-.nav {
+.navigation {
     display: flex;
     @media (min-width: 768px) {
     position: absolute;
@@ -12,13 +12,15 @@
 }
 }
 
-.nav__menu {
+.navigation__menu {
     text-align: center;
     list-style: none;
+    display: flex;
+    flex-direction: column;
     a {
         font-size: 1.4rem;
         font-family: $font-text;
-        opacity: 0.75;
+        opacity: 0.75;/*quotes: ;*/
         text-decoration: none;
         color: $color-text;
         text-transform: uppercase;
