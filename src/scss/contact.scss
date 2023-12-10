@@ -1,58 +1,66 @@
-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
+@import 'core/variables';
+@import 'core/reset';
+@import 'layout/header';
+@import 'layout/hero';
 
-.contact {
-    // height: 290px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+// input {
+//     -webkit-appearance: none;
+//     -moz-appearance: none;
+//     appearance: none;
+//   }
+
+// .contact {
+//     // height: 290px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 30px;
     
-        &__title{
-            // width: 127px;
-            height: 45px;
-            text-transform: uppercase;
-            font-size: 24px;
-            color: ;
+//         &__title{
+//             // width: 127px;
+//             height: 45px;
+//             text-transform: uppercase;
+//             font-size: 24px;
+//             color: ;
             
-            &--p1{
-                font-family: ;
-                color: ;
-                text-align: center;
-                padding: ;
-            }
+//             &--p1{
+//                 font-family: ;
+//                 color: ;
+//                 text-align: center;
+//                 padding: ;
+//             }
 
-            &--p2{
-                font-family: ;
-                color: ;
-                text-align: center;
-                padding: ;
-            }
+//             &--p2{
+//                 font-family: ;
+//                 color: ;
+//                 text-align: center;
+//                 padding: ;
+//             }
 
-        }
-}
+//         }
+// }
 
 
 
-.app {
-    display: flex;
-    flex-direction: column;
-    &__form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 39px;
-    flex-wrap: wrap;
-}
-}
+// .app {
+//     display: flex;
+//     flex-direction: column;
+//     &__form {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 39px;
+//     flex-wrap: wrap;
+// }
+// }
 
-.button {
-    display: ;
-}
+// .button {
+//     display: ;
+// }
 
-// darle color al asterico y tamaño
+// // darle color al asterico y tamaño
+
+@import 'layout/pnav';
+@import 'layout/footer';

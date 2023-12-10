@@ -25,21 +25,20 @@
         
         @media (min-width: 768px) {
             height: 170px;
-            margin-bottom: 0px;
+            margin-bottom: 15px;
             align-items: flex-start;
-            gap:0;
             position: relative;
             bottom: 30px;
             padding: 45px;
-            gap: 40px;
+            
         }
 
         @media (min-width: 1200px) {
             height: 160px;
             align-items: flex-start;
-            gap:0;
             position: relative;
-            padding: 140px;
+            padding: 35px 140px 50px;
+            gap: 20px;
         }
     }
 
