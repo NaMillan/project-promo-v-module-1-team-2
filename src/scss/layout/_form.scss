@@ -1,0 +1,64 @@
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 40px 25px 40px;
+    
+        &__title{
+            text-transform: uppercase;
+            font-size: 2.4rem;
+            font-family:$font-title;
+            color: $color-title;
+        }
+            
+        &--p1{
+            font-family: $font-text;
+            color: $color-text;
+            text-align: center;
+            font-size: 1.6rem;
+        }
+
+        &--p2{
+            font-family: $font-text;
+            color: $color-text;
+            text-align: center;
+            font-size: 1.2rem ;
+        }
+
+    }
+
+
+.form__detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    font-family:$font-text;
+    font-size: 1.4rem;
+    color: $color-text;
+    // flex-wrap: wrap;
+        &--asterisk {
+            color: $color-aqua;
+        }
+}
+
+// .button {
+//     display: ;
+// }
+
+@media (min-width: 768px) { 
+    
+}
+
+@media (min-width: 1200px) {
+    
+}

@@ -1,0 +1,27 @@
+<div class="contact">
+    <h1 class="contact__title">Contacto</h1>
+    <p class="contact__title--p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corporis nesciunt eaque! Praesentium facere
+        numquam quidem molestiae et ullam laborum? Modi iure ea harum earum iusto adipisci perspiciatis excepturi
+        omnis!</p>
+    <p class="contact__title--p2">Todos los campos marcados con * son obligatorios</p>
+</div>
+<div class="form">
+    <form action="dirección del servidor donde se envían los datos del formulario" method="post" class="form__detail">
+        <label for="name">Nombre completo</label>
+        <span class="form__detail--asterisk">*</span>
+        <input type="text" id="name" name="name" placeholder="Nombre..." required>
+
+        <label for="email">Email</label>
+        <span class="asterisk">*</span>
+        <input type="email" id="email" name="email" placeholder="nombre.apellido@mail.com" required>
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ej:123456789">
+
+        <label for="mensaje">Mensaje</label>
+        <span class="asterisk">*</span>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué necesitas?" required></textarea>
+
+        <button type="submit">Enviar</button>  
+        <!-- <input type="submit" value="Enviar info" /> -->
+</div>
