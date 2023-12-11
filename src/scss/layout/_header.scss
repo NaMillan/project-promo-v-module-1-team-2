@@ -12,8 +12,12 @@
     font-size: 2.8rem;
     text-transform: uppercase;
     padding:15px;
-    text-align: center; 
+    text-align: center;
+    & a {
+        color: $color-white;
+        text-decoration: none;
     }
+}
 }
 
 .navinitial__title--list { 
