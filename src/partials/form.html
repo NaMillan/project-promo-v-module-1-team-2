@@ -7,19 +7,16 @@
 </div>
 <div class="form">
     <form action="dirección del servidor donde se envían los datos del formulario" method="post" class="form__detail">
-        <label for="name">Nombre completo</label>
-        <span class="form__detail--asterisk">*</span>
+        <label for="name">Nombre completo<span class="form__detail--asterisk">*</span></label>
         <input type="text" id="name" name="name" placeholder="Nombre..." required>
 
-        <label for="email">Email</label>
-        <span class="asterisk">*</span>
+        <label for="email">Email<span class="form__detail--asterisk">*</span></label>
         <input type="email" id="email" name="email" placeholder="nombre.apellido@mail.com" required>
 
         <label for="telefono">Teléfono</label>
         <input type="tel" id="telefono" name="telefono" placeholder="Ej:123456789">
 
-        <label for="mensaje">Mensaje</label>
-        <span class="asterisk">*</span>
+        <label for="mensaje">Mensaje<span class="form__detail--asterisk">*</span></label>
         <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué necesitas?" required></textarea>
 
         <button type="submit">Enviar</button>  
