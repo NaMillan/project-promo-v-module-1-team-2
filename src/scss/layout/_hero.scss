@@ -23,7 +23,19 @@
         background-color: rgb(255, 255, 255, 0.4);
         transform: none;
         transform: translateX(-30%);
+        height: 80px;
+        width: 440px;
+        font-size: 2rem;
     //   CAMBIAR TAMAÑOS A 440*80 Y EN DESKTOP A 90*574
+    @media (min-width: 1200px) {
+        background-color: rgb(255, 255, 255, 0.4);
+        transform: none;
+        transform: translateX(-50%); 
+        height: 90px;
+        width: 575px;
+        font-size: 2.4rem;
+    
+    }
     }
     
     }

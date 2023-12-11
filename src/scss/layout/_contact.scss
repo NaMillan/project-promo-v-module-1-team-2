@@ -4,6 +4,12 @@ input {
     appearance: none;
   }
 
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .contact {
     display: flex;
     flex-direction: column;
@@ -36,17 +42,29 @@ input {
     }
 
 .form {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
+    justify-content: space-evenly;
+    align-items: start;
+    /*gap: 35px;
     font-family:$font-text;
     font-size: 1.4rem;
     color: $color-text;
-    margin: 60px 15px;
+    margin: auto;*/
     // text-align: left;
     // flex-wrap: wrap;
+
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(11, 40px);
+    height: 100vh;
+    gap: 5px;
+    margin: 80px 15px 15px;
+    max-width: 60%;
+    grid: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
         &__asterisk {
             color: $color-aqua;
         }
@@ -56,6 +74,10 @@ input {
         &__label {
             text-align: left;
      }
+}
+
+#mensaje {
+    grid-row: span 3;
 }
 // .button {
 //     display: ;
