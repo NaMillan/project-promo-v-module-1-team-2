@@ -61,7 +61,13 @@ input {
         }
         &__label {
             text-align: left;
-     }
+        }
+        &__button {
+            background-color: $color-title;
+            text-transform: uppercase;
+            font-family: $font-title;
+            color: $color-white;
+        }
 }
 
 #mensaje {
