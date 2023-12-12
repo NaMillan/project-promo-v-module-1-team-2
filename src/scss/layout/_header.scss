@@ -1,15 +1,89 @@
-.header {
-    background-color: rgba(9, 157, 141, 0.8);
-    color: $color-white;
-    padding: 15px;
-    text-align: center;
-    position: sticky;
-    top: 0;
+.navinitial {
     width: 100%;
-    z-index: 1000; 
+    background-color: $color-title;
+    position: fixed;
+    top: 0;
+    opacity: 0.80;
+    z-index: 1000;
+ 
+&__title {
+    color: $color-white;
+    font-family: $font-title;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    padding:15px;
+    text-align: center;
+    & a {
+        color: $color-white;
+        text-decoration: none;
+    }
 }
-.header h1 {
-    margin:0;
-    font-family: 'Rubik', sans-serif;
-    font-size: 2rem;
 }
+
+.navinitial__title--list { 
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+background-color: $color-aqua;
+& li { 
+    display: inline-block; 
+    line-height: 40px;
+         
+    & a {
+        text-decoration: none; 
+        color: $color-white;
+        font-family: $font-title;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+         }
+         &:not(:last-child) {
+         margin-right: 10px; }
+}
+}    
+
+
+@media screen and (min-width: 768px){
+.navinitial {
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 20px;
+background-color: $color-title-trans;
+opacity: 1;
+&__title {
+margin-left: 10%;
+    &--list {
+    background-color: transparent;   
+    li{
+    display: inline-block;
+        }
+}
+}
+}
+ }
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

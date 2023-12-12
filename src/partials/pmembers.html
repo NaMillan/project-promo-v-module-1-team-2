@@ -1,21 +1,21 @@
-<article class="article_alumnas">
-    <figure class="pic_container">
-        <img src="{=$img}" alt="Foto miembro equipo" class="pic">
+<article class="description">
+    <figure class="description__img">
+        <img src="{=$img}" alt="Foto miembro equipo" class="description__img--img">
     </figure>
-    <div class="descripcion_alumnas">
-        <h4>{=$name}</h4>
-        <p>{=$desc}</p>
-        <span class="redes">
-            <a href="{=$twitter}" class="icon twitter">
+    <div class="description__text">
+        <h4 class="description__text--title">{=$name}</h4>
+        <p class="description__text--p">{=$desc}</p>
+        <span class="social">
+            <a href="{=$twitter}" class="social__icon social__twitter">
                 <i class="fa-brands fa-x-twitter"></i>
             </a>
-            <a href="{=$linkedin}" class="icon linkedin">
+            <a href="{=$linkedin}" class="social__icon social__linkedin">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="{=$github}" class="icon github">
+            <a href="{=$github}" class="social__icon social__github">
                 <i class="fa-brands fa-github-alt"></i>
             </a>
-            <a href="{=$mail}" class="icon">
+            <a href="{=$mail}" class="social__icon">
                 <i class="fa-solid fa-envelope"></i>
             </a>
         </span>

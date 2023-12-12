@@ -1,17 +1,32 @@
-
-
-.alumnas {
+.us {
     display: flex;
     flex-direction: column;
     font-family: sans;
+    @media (min-width: 768px) {
+        gap: 20px;
+        margin-bottom: 60px;
+    }
+    @media (min-width: 1200px) {
+        gap: 30px;
+    }
+    &__title {
+        font-family: $font-title;
+        font-size: 2.4rem;
+        text-transform: uppercase;
+        color: $color-title;
+        margin: 45px auto 20px;
+        padding: 15px;
+        position: relative;
+    }   
 }
+// .us__title {
+//     font-family: $font-title;
+//     font-size: 2.4rem;
+//     text-transform: uppercase;
+//     color: $color-title;
+//     margin: 45px auto 20px;
+//     padding: 15px;
+//     position: relative;
+// }
 
-.title {
-    font-family: $font-title;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #099D8D;
-    margin: 0 auto;
-    padding: 2rem;
-}
 

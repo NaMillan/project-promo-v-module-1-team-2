@@ -1,21 +1,34 @@
-.nav {
-    width: 140px;
-    height: 60px;
-    text-align: center;
+.navigation {
+    display: flex;
+    @media (min-width: 768px) {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    text-align: left;
+}
+    @media (min-width: 1200px) {
+    right: 140px;
+   
+}
 }
 
-.menu {
+.navigation__menu {
     text-align: center;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    a {
+        font-size: 1.4rem;
+        font-family: $font-text;
+        opacity: 0.75;/*quotes: ;*/
+        text-decoration: none;
+        color: $color-text;
+        text-transform: uppercase;
+        line-height: 1.4;
+        font-weight: 600;
+    }
+    @media (min-width: 768px) {
+        text-align: right;
+        line-height: 3;
 }
-
-a {
-    font-size: 14 px;
-    font-family: $color-title;
-    opacity: 0.75;
-    text-decoration: none;
-    color: $color-text;
-    text-transform: uppercase;
-    line-height: 1.4;
-    font-weight: 600;
 }
