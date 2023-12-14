@@ -44,29 +44,31 @@ background-color: $color-aqua;
 
 
 @media screen and (min-width: 768px){
-.navinitial {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background-color: $color-title-trans;
-    opacity: 1;
-}
-&__title {
-    margin-left: 10%;
-    &--list {
-    background-color: transparent;   
-        li{
-        display: inline-block;
+    .navinitial {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background-color: $color-title-trans;
+        opacity: 1;
+        &__title {
+            margin-left: 10%;
+        &--list {
+            background-color: transparent;   
+            padding-right: 45px;
+            padding-left: 45px;
+            li{
+            display: inline-block;
+            }
         }
+        }   
     }
 }
-}
 @media screen and (min-width: 1200px) {
-.navinitial{
+    .navinitial{
     padding-left: 140px;
     padding-right: 140px;
-}
+    }
 }
 
 
