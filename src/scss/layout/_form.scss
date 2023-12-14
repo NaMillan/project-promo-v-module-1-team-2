@@ -9,6 +9,7 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 1000px;
 }
 
 .contact {
@@ -17,8 +18,7 @@ input {
     justify-content: center;
     align-items: center;
     gap: 25px;
-    margin: 80px 15px 15px;
-    // padding: 40px 25px 40px;
+    margin: 30px 15px 58px;
     &__title{
         text-transform: uppercase;
         font-size: 2.4rem;
@@ -62,7 +62,10 @@ input {
     &__fieldset {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         text-align: left;
+        font-family: $font-text;
+        gap: 5px;
         &--asterisk {
             color: $color-aqua;
         }
@@ -84,6 +87,9 @@ input {
             text-transform: uppercase;
             font-family: $font-title;
             color: $color-white;
+            height: 45px;
+            border-radius: 4px;
+        
         }
     }
 }
