@@ -83,6 +83,9 @@ input {
             color: $color-white;
             height: 45px;
             border-radius: 4px;
+            @media (min-width: 768px) {
+                width: 206px;
+            }
         
         }
     }
