@@ -3,21 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url('/images/backgroundcontact.jpg');
+    background-image: url('/images/handscontact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    
-    @media (min-width: 768px) {
-        
-        
-       
-    //   CAMBIAR TAMAÑOS A 440*80 Y EN DESKTOP A 90*574
-    @media (min-width: 1200px) {
-     
-        
-    
-    }
-    }
-    
+    background-position: center center;   
     }
