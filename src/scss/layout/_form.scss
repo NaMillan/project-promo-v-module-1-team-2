@@ -2,13 +2,14 @@ input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-  }
+}
 
 .parent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 1000px;
 }
 .contact {
     display: flex;
@@ -16,72 +17,77 @@ input {
     justify-content: center;
     align-items: center;
     gap: 25px;
-    margin: 80px 15px 15px;
-    // padding: 40px 25px 40px;
-    
-        &__title{
-            text-transform: uppercase;
-            font-size: 2.4rem;
-            font-family:$font-title;
-            color: $color-title;
-            text-align: center;  
-            &--p1{
+    margin: 30px 15px 58px;
+    &__title {
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        font-family:$font-title;
+        color: $color-title;
+        text-align: center;  
+        &--p1 {
             font-family: $font-text;
             color: $color-text;
             text-align: center;
             font-size: 1.6rem;
             padding: 15px;
+            @media (min-width: 768px) { 
+                width: 500px;
+                height: 120px;
             }
-            &--p2{
+            @media (min-width: 1200px) {
+                width: 650px;
+                height: 120px;
+            }
+        }
+        &--p2 {
             font-family: $font-text;
             color: $color-text;
             text-align: center;
-            font-size: 1.2rem ;
-            }
+            font-size: 1.2rem ;                          
         }
     }
-
+}
 .form {
     display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: repeat(11, 40px);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
     height: 100vh;
     gap: 5px;
-    margin: 80px 15px 15px;
-    max-width: 60%;
-    grid: center;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-        &__asterisk {
+    &__fieldset {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        font-family: $font-text;
+        gap: 5px;
+        &--asterisk {
             color: $color-aqua;
         }
-        input {
+        &--input {
+            min-width: 290px;
+            max-width: 430px;
+            min-height: 45px;
             padding: 15px;
+            @media (min-width: 768px) {
+                width: 442px;
+            }
         }
-        &__label {
+        &--label {
             text-align: left;
-     }
-}
-
-#mensaje {
-    grid-row: span 3;
-}
-// .button {
-//     display: ;
-// }
-
-@media (min-width: 768px) { 
-    .contact__title--p1{
-        width: 500px;
-        height: 120px;
+            font-size: 1.4rem;
+        }
+        &--button {
+            background-color: $color-title;
+            text-transform: uppercase;
+            font-family: $font-title;
+            color: $color-white;
+            height: 45px;
+            border-radius: 4px;
+            @media (min-width: 768px) {
+                width: 206px;
+            }
+        
+        }
     }
 }
 
-@media (min-width: 1200px) {
-    .contact__title--p1{
-        width: 650px;
-        height: 120px;
-
-    }
-}
